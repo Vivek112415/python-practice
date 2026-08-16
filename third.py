@@ -1,5 +1,16 @@
+                    # for loop to find factorial of a number
 num =int(input("enter the number :"))
 fact =1
 for i in range(1,num+1):
     fact = fact*i
     print(fact)
+
+                    # while loop to find factorial of a number 
+
+num =int(input("enter the number :"))
+fact=1
+i =1
+while i<num+1:
+    fact = fact*i
+    print(fact)
+    i+=1

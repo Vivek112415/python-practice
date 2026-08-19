@@ -1,12 +1,12 @@
-# Main dictionary jisme saare users ka data store hoga
+
 users_db = {}
 
 # Kitne users add karne hain
-num_users = int(input("Kitne users add karna chahte hain? "))
+num_users = int(input("How many users do you want to add? "))
 
 # Users ka data input lene ke liye loop
 for i in range(num_users):
-    print(f"\n--- User {i + 1} ki details enter karein ---")
+    print(f"\n--- User {i + 1} Details ---")
     user_id = input("Enter User ID: ")
     user_name = input("Enter User Name: ")
     user_age = input("Enter User Age: ")
@@ -20,7 +20,7 @@ for i in range(num_users):
 print("\n" + "="*40)
 
 # Particular user ki details search karne ke liye
-search_id = input("\nJiss user ki details chahiye, uski User ID enter karein: ")
+search_id = input("\n Enter your user id : ")
 
 # Search result check karna
 if search_id in users_db:

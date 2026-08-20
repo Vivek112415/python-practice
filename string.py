@@ -6,7 +6,7 @@ print("Original List:", fruits)
 
 # Accessing
 print("Accessing:", fruits[0])
-
+ 
 # Slicing
 print("Slicing:", fruits[1:4])
 

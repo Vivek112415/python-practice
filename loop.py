@@ -25,10 +25,36 @@
 #                 oddSum = oddSum + i                    
 # print("Odd number sum is :",oddSum)    
 
-                                # WAP to even number add
+#                                 # WAP to even number add
 
-evenSum=0
-for i in range(10):
-        if i%2 == 0:
-                evenSum = evenSum + i
-print("Even number sum is :",evenSum)
+# evenSum=0
+# for i in range(10):
+#         if i%2 == 0:
+#                 evenSum = evenSum + i
+# print("Even number sum is :",evenSum)
+
+
+        #Sum of Multiples Write a for loop to calculate the sum of all numbers between 1 and 50 that are divisible by 3.
+
+multipleSum=0
+for i in range(1,51):
+        if i%3==0:
+                multipleSum = multipleSum + i
+print("Sum of multiples of 3 between 1 and 50 is :",multipleSum)
+
+
+# Given the list colors = ["red", "green", "blue", "yellow"], write a for loop that prints each color in reverse order without using the .reverse() method or list slicing [::-1].
+
+list =["red", "green", "blue", "yellow"]
+for i in range(len(list)-1,-1,-1):
+    print(list[i])
+
+
+# Write a program that takes a string (e.g., text = "python programming") and uses a for loop to count how many times the letter "g" appears.
+
+text = "python programming"
+count = 0
+for char in text:
+        if char == "g":
+                count += 1
+print("The letter 'g' appears :", count)

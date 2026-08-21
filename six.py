@@ -26,3 +26,27 @@ elif num>=60:
     print("Grade : D")
 else:
     print("Fail")
+
+
+                            # WAP to chek number even or odd
+
+a=int(input("Enter a number :"))
+
+if a%2==0:
+    print("Even Number ")
+else:
+    print("Odd Number")
+
+
+
+                                # WAP to traffic light a sinlge program
+
+
+light =input("Enter a light :")
+
+if light=="Green":
+    print("GO")
+elif light=="yellow":
+    print("start")
+else:
+    print("Stop")

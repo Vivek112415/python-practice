@@ -18,11 +18,17 @@
 #     i=i+1
 
 
+                                # WAP to odd number add
+# oddSum=0
+# for i in range(10):
+#         if i%2 != 0:
+#                 oddSum = oddSum + i                    
+# print("Odd number sum is :",oddSum)    
 
-# for i in range(5):
-#     print("Chahal")
+                                # WAP to even number add
 
-n=input("enter a name you cha :")
-
-for i in range(len(n)):
-    print(n[i])
+evenSum=0
+for i in range(10):
+        if i%2 == 0:
+                evenSum = evenSum + i
+print("Even number sum is :",evenSum)

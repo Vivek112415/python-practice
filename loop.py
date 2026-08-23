@@ -116,3 +116,13 @@ for i in range(1,6):
         if i==3:
                 continue
         print(i)
+
+
+                        # jump loop
+
+
+for i in ("programming"):
+      if i=="g":
+            pass
+      else:
+                print(i)

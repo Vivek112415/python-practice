@@ -41,10 +41,22 @@
 
                         # Recursion to function
 
-def fact(n):
+# def fact(n):
+#     if n==1:
+#         return 1
+#     else:
+#         return n*fact(n-1)
+
+# print("Factorial of number is:",fact(5))
+
+
+                # recursion to factorial number to user input
+
+def fact_su(n):
     if n==1:
         return 1
     else:
-        return n*fact(n-1)
+        return n*fact_su(n-1)
 
-print("Factorial of number is:",fact(5))
+n=int(input("Enter a number: "))
+print("Factorial of number is:",fact_su(n))

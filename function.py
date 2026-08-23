@@ -52,11 +52,29 @@
 
                 # recursion to factorial number to user input
 
-def fact_su(n):
-    if n==1:
-        return 1
-    else:
-        return n*fact_su(n-1)
+# def fact_su(n):
+#     if n==1:
+#         return 1
+#     else:
+#         return n*fact_su(n-1)
 
-n=int(input("Enter a number: "))
-print("Factorial of number is:",fact_su(n))
+# n=int(input("Enter a number: "))
+# print("Factorial of number is:",fact_su(n))
+
+
+                    # lambda function
+
+fun = lambda x: x*x
+print(fun(5))
+
+
+                # lambda function to user input
+x = int(input("Enter a number: "))
+fun = lambda x: x*x
+print(fun(x))
+
+
+                # lambda function to add two number
+
+fun =lambda x,y : x+y
+print(fun(5,6))

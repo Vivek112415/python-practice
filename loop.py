@@ -83,20 +83,36 @@
 
                                 # nested loop
 
-for i in range(1,11):
-        for j in range(1,11):
-                print(i*j,end=" ")
-        print(' ')
+# for i in range(1,11):
+#         for j in range(1,11):
+#                 print(i*j,end=" ")
+#         print(' ')
 
 
         # mested while loop
 
-i=1
-while i<5:
-        j=1
-        while j<10:
-                print(j,end=" ")
-                j=j+1
-        print(' ')
-        i=i+1
-        print(' ')
+# i=1
+# while i<5:
+#         j=1
+#         while j<10:
+#                 print(j,end=" ")
+#                 j=j+1
+#         print(' ')
+#         i=i+1
+#         print(' ')
+
+
+                                # bracket loop
+
+for i in range(1,6):
+    if i==3:
+        break
+    print(i)
+
+
+                                # continue loop
+
+for i in range(1,6):
+        if i==3:
+                continue
+        print(i)

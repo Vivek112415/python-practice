@@ -64,17 +64,31 @@
 
                     # lambda function
 
-fun = lambda x: x*x
-print(fun(5))
+# fun = lambda x: x*x
+# print(fun(5))
 
 
                 # lambda function to user input
-x = int(input("Enter a number: "))
-fun = lambda x: x*x
-print(fun(x))
+# x = int(input("Enter a number: "))
+# fun = lambda x: x*x
+# print(fun(x))
 
 
                 # lambda function to add two number
 
-fun =lambda x,y : x+y
-print(fun(5,6))
+# fun =lambda x,y : x+y
+# print(fun(5,6))
+
+                # multi value return to function
+
+def cal_add(a,b):
+    sum=a+b
+    sub=a-b
+    mul=a*b
+    div=a/b
+    return sum,sub,mul,div
+a,b,c,d = cal_add(10,5)
+print("sum is:",a)
+print("sub is:",b)
+print("mul is:",c)
+print("div is:",d)

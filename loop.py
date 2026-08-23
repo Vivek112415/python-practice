@@ -62,19 +62,41 @@
 
 # factorial number 
 
-n=int(input("Enter a number: "))
-fact =1
-for i in range(1,n+1):
-    fact = fact * i
-print("Factorial of number ",fact)
+# n=int(input("Enter a number: "))
+# fact =1
+# for i in range(1,n+1):
+#     fact = fact * i
+# print("Factorial of number ",fact)
 
 
 # Positive, Negative, or Zero number check
 
-n=float(input("Enter a number: "))
-if n>0:
-        print("Positive number")
-elif n<0:
-        print("Negative number")
-else:
-        print("Zero")
+# n=float(input("Enter a number: "))
+# if n>0:
+#         print("Positive number")
+# elif n<0:
+#         print("Negative number")
+# else:
+#         print("Zero")
+
+
+
+                                # nested loop
+
+for i in range(1,11):
+        for j in range(1,11):
+                print(i*j,end=" ")
+        print(' ')
+
+
+        # mested while loop
+
+i=1
+while i<5:
+        j=1
+        while j<10:
+                print(j,end=" ")
+                j=j+1
+        print(' ')
+        i=i+1
+        print(' ')

@@ -104,25 +104,37 @@
 
                                 # bracket loop
 
-for i in range(1,6):
-    if i==3:
-        break
-    print(i)
+# for i in range(1,6):
+#     if i==3:
+#         break
+#     print(i)
 
 
                                 # continue loop
 
-for i in range(1,6):
-        if i==3:
-                continue
-        print(i)
+# for i in range(1,6):
+#         if i==3:
+#                 continue
+#         print(i)
 
 
                         # jump loop
 
 
-for i in ("programming"):
-      if i=="g":
-            pass
-      else:
-                print(i)
+# for i in ("programming"):
+#       if i=="g":
+#             pass
+#       else:
+#                 print(i)
+
+
+
+                # pass statment
+
+# a ="chahall"
+# for i in a:
+#         if i=="a":
+#                 pass
+#         else:
+#                 print(i)
+    

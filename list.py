@@ -17,7 +17,23 @@
 
                     # list c0unt
 
-list3=[1,3,5,6,32,5]
-a=list3.count(5)
-print(a)
+# list3=[1,3,5,6,32,5]
+# a=list3.count(5)
+# print(a)
+
+
+# switch statement
+
+day =2
+match day:
+    case 1:
+        print("monday")
+    case 2:
+        print("tuesday")
+    case 3:
+        print("wed")
+    case 4:
+        print("thur")
+    case _:
+        print("incalied")
 

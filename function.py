@@ -92,3 +92,16 @@ print("sum is:",a)
 print("sub is:",b)
 print("mul is:",c)
 print("div is:",d)
+
+
+
+# pre define function
+
+print(len("hello world"))
+
+# find the maximum value
+print(max(10,20,30,40,50))
+
+# min value function pre define
+
+print(min(1,20,30,40,50))

@@ -61,13 +61,25 @@
 
 # Write a Python program to calculate electricity bill based on the number of units using
 
-unite=int(input("Enter a unites :"))
+# unite=int(input("Enter a unites :"))
 
-if unite <=100:
-    bill = unite*5
-elif unite <=200:
-    bill = unite*7
+# if unite <=100:
+#     bill = unite*5
+# elif unite <=200:
+#     bill = unite*7
+# else:
+#     bill =unite*10
+
+# print("Electricity bill is :",bill)
+
+
+# Write a Python program to check whether a given year is a leap year or not.
+
+year=int(input("Enter a year :"))
+
+if year % 400 ==0:
+    print("Leap year ")
+elif year %4==0 and year % 100 !=0:
+    print(" Leap year ")
 else:
-    bill =unite*10
-
-print("Electricity bill is :",bill)
+    print("Not Leap year ")

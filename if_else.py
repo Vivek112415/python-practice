@@ -75,11 +75,23 @@
 
 # Write a Python program to check whether a given year is a leap year or not.
 
-year=int(input("Enter a year :"))
+# year=int(input("Enter a year :"))
 
-if year % 400 ==0:
-    print("Leap year ")
-elif year %4==0 and year % 100 !=0:
-    print(" Leap year ")
+# if year % 400 ==0:
+#     print("Leap year ")
+# elif year %4==0 and year % 100 !=0:
+#     print(" Leap year ")
+# else:
+#     print("Not Leap year ")
+
+
+# Write a Python program to check whether a number is positive, negative, or zero.
+
+num=int(input("Enter a numberb  :"))
+
+if num > 0:
+    print("positive number ")
+elif num < 0:
+    print("Negative number ")
 else:
-    print("Not Leap year ")
+    print("Zero")

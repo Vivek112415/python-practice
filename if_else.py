@@ -49,11 +49,25 @@
 
 # Write a Python program to check whether a number is greater than, less than, or equal to 100.
 
-nums=int(input("Enter a number :"))
+# nums=int(input("Enter a number :"))
 
-if nums >100:
-    print("Number is a greater than")
-elif nums <100:
-    print("number is a less than")
+# if nums >100:
+#     print("Number is a greater than")
+# elif nums <100:
+#     print("number is a less than")
+# else:
+#     print("number is a equal than")
+
+
+# Write a Python program to calculate electricity bill based on the number of units using
+
+unite=int(input("Enter a unites :"))
+
+if unite <=100:
+    bill = unite*5
+elif unite <=200:
+    bill = unite*7
 else:
-    print("number is a equal than")
+    bill =unite*10
+
+print("Electricity bill is :",bill)

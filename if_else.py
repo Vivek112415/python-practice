@@ -28,13 +28,21 @@
 
 # user input largest number
 
-n=int(input("enter a number :"))
-m=int(input("enter a number :"))
-o=int(input("enter a number :"))
+# n=int(input("enter a number :"))
+# m=int(input("enter a number :"))
+# o=int(input("enter a number :"))
 
-if n>m & n>0:
-    print("Largest number n :",n)
-elif m>0 & m>0:
-    print("Largest numver M :",m)
+# if n>m & n>0:
+#     print("Largest number n :",n)
+# elif m>0 & m>0:
+#     print("Largest numver M :",m)
+# else:
+#     print("Largest o:",o)
+
+# Write a Python program to check whether a number is divisible by 5 or not.
+
+num=int(input("Enter a numberb :"))
+if num %5==0:
+    print("Divisible by 5 ")
 else:
-    print("Largest o:",o)
+    print(" Not Divisible by 5 ")

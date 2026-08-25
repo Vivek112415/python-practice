@@ -41,8 +41,19 @@
 
 # Write a Python program to check whether a number is divisible by 5 or not.
 
-num=int(input("Enter a numberb :"))
-if num %5==0:
-    print("Divisible by 5 ")
+# num=int(input("Enter a numberb :"))
+# if num %5==0:
+#     print("Divisible by 5 ")
+# else:
+#     print(" Not Divisible by 5 ")
+
+# Write a Python program to check whether a number is greater than, less than, or equal to 100.
+
+nums=int(input("Enter a number :"))
+
+if nums >100:
+    print("Number is a greater than")
+elif nums <100:
+    print("number is a less than")
 else:
-    print(" Not Divisible by 5 ")
+    print("number is a equal than")

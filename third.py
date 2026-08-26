@@ -16,16 +16,20 @@
 #     i+=1
 
 
-a=int(input("Enter a firt number :"))
-b=int(input("Enter a second number :"))
+# a=int(input("Enter a firt number :"))
+# b=int(input("Enter a second number :"))
 
-add=a+b
-sub=a-b
-multip=a*b
-divided=a/b
-print("add :",add)
-print("subtract :",sub)
-print("divided:",divided)
-print("multipleye :",multip)
+# add=a+b
+# sub=a-b
+# multip=a*b
+# divided=a/b
+# print("add :",add)
+# print("subtract :",sub)
+# print("divided:",divided)
+# print("multipleye :",multip)
+
+
+a=lambda x:x*x;
+print(a(5))
 
 

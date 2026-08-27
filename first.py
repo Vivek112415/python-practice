@@ -22,3 +22,4 @@
 
 str="python programming"
 print(type(str))
+print(str.count("p"))

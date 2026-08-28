@@ -1,3 +1,6 @@
+
+print("hello python")
+
 # print("chahal")
 
 # for i in range(5):
@@ -20,6 +23,6 @@
 #     i+=1
 
 
-str="python programming"
-print(type(str))
-print(str.count("p"))
+# str="python programming"
+# print(type(str))
+# print(str.count("p"))

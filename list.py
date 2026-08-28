@@ -37,4 +37,6 @@
 #     case _:
 #         print("incalied")
 
+numbers = list(map(int, input("Enter numbers separated by space: ").split()))
 
+print("Your list is:", numbers)

@@ -45,6 +45,16 @@
 
 
 
-names = input("Enter names: ").split()
+# names = input("Enter names: ").split()
 
-print(names)
+# print(names)
+
+
+
+# Python Program: List ke numbers ka Sum
+
+numbers = list(map(int, input("Enter numbers: ").split()))
+
+total = sum(numbers)
+
+print("Sum =", total)

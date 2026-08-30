@@ -81,27 +81,31 @@
 
                 # multi value return to function
 
-def cal_add(a,b):
-    sum=a+b
-    sub=a-b
-    mul=a*b
-    div=a/b
-    return sum,sub,mul,div
-a,b,c,d = cal_add(10,5)
-print("sum is:",a)
-print("sub is:",b)
-print("mul is:",c)
-print("div is:",d)
+# def cal_add(a,b):
+#     sum=a+b
+#     sub=a-b
+#     mul=a*b
+#     div=a/b
+#     return sum,sub,mul,div
+# a,b,c,d = cal_add(10,5)
+# print("sum is:",a)
+# print("sub is:",b)
+# print("mul is:",c)
+# print("div is:",d)
 
 
 
 # pre define function
 
-print(len("hello world"))
+# print(len("hello world"))
 
 # find the maximum value
-print(max(10,20,30,40,50))
+# print(max(10,20,30,40,50))
 
 # min value function pre define
 
-print(min(1,20,30,40,50))
+# print(min(1,20,30,40,50))
+
+# sum value function pre define
+
+print(sum (1,22,22,2))

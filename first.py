@@ -1,5 +1,5 @@
 
-print("hello python")
+# print("hello python")
 
 # print("chahal")
 
@@ -26,3 +26,12 @@ print("hello python")
 # str="python programming"
 # print(type(str))
 # print(str.count("p"))
+
+# Find the largest of two numbers.
+
+num1=int(input("Enter a number :"))
+num2=int(input("Enter a number :"))
+if num1 > num2:
+    print("largest number is  :",num1)
+else:
+    print("largest number is :",num2)

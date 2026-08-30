@@ -1,4 +1,5 @@
 
+
                 # min list element
 # list=[11,22,4,6,4,7]
 # a=min(list)
@@ -51,10 +52,12 @@
 
 
 
+
 # Python Program: List ke numbers ka Sum
 
-numbers = list(map(int, input("Enter numbers: ").split()))
+# numbers = list(map(int, input("Enter numbers: ").split()))
 
-total = sum(numbers)
+# total = sum(numbers)
 
-print("Sum =", total)
+# print("Sum =", total)
+

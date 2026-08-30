@@ -29,7 +29,7 @@
 # print("multipleye :",multip)
 
 
-a=lambda x:x*x;
-print(a(5))
+# a=lambda x:x*x;
+# print(a(5))
 
 

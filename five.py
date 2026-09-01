@@ -60,15 +60,20 @@
 # a=[1,2,2,8,3,4,43,3,2,5]
 # sum_su(a)
 
-number =[1,2,1,3,4,7,4,2,6,98,4,2,7,34,6,3]
+# number =[1,2,1,3,4,7,4,2,6,98,4,2,7,34,6,3]
 
-frequence={}
-for i in number:
-    if i in frequence:
-        frequence[i]+=1
-    else:
-        frequence[i]=1
-    print(frequence)
+# frequence={}
+# for i in number:
+#     if i in frequence:
+#         frequence[i]+=1
+#     else:
+#         frequence[i]=1
+#     print(frequence)
 
-for num, count in frequence.items():
-    print(num, ":", count)
+# for num, count in frequence.items():
+#     print(num, ":", count)
+
+numbers = [1, 2, 2, 3, 3, 3, 4]
+
+for num in set(numbers):
+    print(num, ":", numbers.count(num))

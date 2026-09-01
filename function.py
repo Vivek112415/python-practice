@@ -105,7 +105,3 @@
 # min value function pre define
 
 # print(min(1,20,30,40,50))
-
-# sum value function pre define
-
-print(sum (1,22,22,2))

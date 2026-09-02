@@ -75,12 +75,12 @@
 
 
 # short method list frequence
-# numbers = [1, 2, 2, 3, 3, 3, 4]
+numbers = [1, 2, 2, 3, 3, 3, 4]
 
-# for num in set(numbers):
-#     print(num, ":", numbers.count(num))
+for num in set(numbers):
+    print(num, ":", numbers.count(num))
 
 # largest number in list
-numbers = [1, 2, 3, 4, 5]
+# numbers = [1, 2, 3, 4, 5]
 
-print("Largest number in the list is:", max(numbers))
+# print("Largest number in the list is:", max(numbers))

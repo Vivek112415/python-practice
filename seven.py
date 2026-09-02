@@ -28,3 +28,4 @@ s1=student()
 s1.sum("vivek",21)
 s1.sum("Chahal",22)
 s1.sum("shourya",23)
+

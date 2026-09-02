@@ -18,14 +18,25 @@
 
 # class or object 
 
+# class student:
+#     def sum(self,name,age):
+#         self.name=name
+#         self.age=age
+#         print(self.name,self.age) 
+
+# s1=student()
+# s1.sum("vivek",21)
+# s1.sum("Chahal",22)
+# s1.sum("shourya",23)
+
+
 class student:
-    def sum(self,name,age):
-        self.name=name
-        self.age=age
+    def sum(self):
+        self.name = "chahal"
+        self.age = 21
         print(self.name,self.age) 
+        print("vivek",22) 
 
 s1=student()
-s1.sum("vivek",21)
-s1.sum("Chahal",22)
-s1.sum("shourya",23)
+s1.sum()
 

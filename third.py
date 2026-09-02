@@ -33,3 +33,13 @@
 # print(a(5))
 
 
+class student:
+    def sum(self):
+        self.name = "chahal"
+        self.age = 21
+        print(self.name,self.age) 
+        print("vivek",22) 
+
+s1=student()
+s1.sum()
+
